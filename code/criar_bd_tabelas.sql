@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS tempo (
     temperatura_maxima int,
     media_temperatura_minima FLOAT(10),
     media_temperatura_maxima FLOAT(10),
-    condicao_do_tempo_previsca varchar(100)
+    condicao_do_tempo_previsca varchar(100),
 	id_data INT, 
 	id_localizacao int,
 	id_temperatura int,
